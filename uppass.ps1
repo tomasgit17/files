@@ -13,7 +13,7 @@ $ApiUrl = "https://api.github.com/repos/$RepoOwner/$RepoName/contents/$FileName"
 
 # Check if file already exists (Get latest commit SHA)
 $Headers = @{
-    Authorization = "token $GitHubToken"
+    Authorization = "Bearer $GitHubToken"
     Accept = "application/vnd.github.v3+json"
 }
 
